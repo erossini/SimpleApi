@@ -1,0 +1,12 @@
+{
+    "id": "8cb02b56-3d42-4ef1-9cb7-f8c23feeb836",
+    "customerId": "2ef07067-bd63-428a-9417-1aae3ebc4fcd",
+    "type": "MoneyTransfer",
+    "name": "Donate puresourcecode.com",
+    "amount": {
+      "type": "MonetaryAmount",
+      "amount": "30",
+      "currency": "GBP"
+    },
+    "beneficiaryBank": "European ExampleBank, London"
+  }

@@ -1,0 +1,15 @@
+{
+    "id": "2ef07067-bd63-428a-9417-1aae3ebc4fab",
+    "address":{
+       "type":"PostalAddress",
+       "addressLocality":"London",
+       "addressRegion":"London",
+       "postalCode":"W105LT",
+       "streetAddress":"228"
+    },
+    "email":"info@puresourcecode.com",
+    "jobTitle":".NET developer",
+    "name":"Enrico Rossini",
+    "telephone":"07745001700",
+    "url":"https://www.puresourcecode.com"
+ }

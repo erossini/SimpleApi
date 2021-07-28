@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleApi</name>
+    </assembly>
+    <members>
+        <member name="F:SimpleApi.Controllers.BaseController`1._log">
+            <summary>
+            The log
+            </summary>
+        </member>
+        <member name="F:SimpleApi.Controllers.BaseController`1._db">
+            <summary>
+            The providers
+            </summary>
+        </member>
+        <member name="M:SimpleApi.Controllers.BaseController`1.GetValue(System.Int64)">
+            <summary>
+            Gets the value.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns>IActionResult.</returns>
+        </member>
+        <member name="M:SimpleApi.Controllers.BaseController`1.GetValues">
+            <summary>
+            Gets the values.
+            </summary>
+            <returns>The list of Azure Categories</returns>
+            <response code="200">Retrieved the list of Azure Category</response>
+        </member>
+        <member name="M:SimpleApi.Controllers.BaseController`1.Patch(`0)">
+            <summary>
+            Patches the specified value.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>IActionResult.</returns>
+        </member>
+        <member name="M:SimpleApi.Controllers.BaseController`1.Post(`0)">
+            <summary>
+            Posts the specified value.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>IActionResult.</returns>
+        </member>
+        <member name="M:SimpleApi.Controllers.BaseController`1.Delete(System.Int64)">
+            <summary>
+            Deletes the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns>IActionResult.</returns>
+        </member>
+    </members>
+</doc>

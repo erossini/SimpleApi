@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>5a5f5b84-1ea1-43c7-944f-f4e9e052d097</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/7ecf93bf-2a78-4c0c-bfb8-e82be924df6c/resourceGroups/Vanquis/providers/microsoft.insights/components/azuks-mcp-vaq-ai-d1</ApplicationInsightsResourceId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Projects\SimpleApi\SimpleApi\SimpleApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleApi.App\SimpleApi.App.csproj" />
+    <ProjectReference Include="..\SimpleApi.Domain\SimpleApi.Domain.csproj" />
+    <ProjectReference Include="..\SimpleApi.Persistence.Interfaces\SimpleApi.Persistence.Interfaces.csproj" />
+    <ProjectReference Include="..\SimpleApi.Persistence\SimpleApi.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

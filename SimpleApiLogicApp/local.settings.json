@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "AzureFunctionsJobHost__extensionBundle__id": "Microsoft.Azure.Functions.ExtensionBundle.Workflows",
+    "FUNCTIONS_EXTENSION_VERSION": "~3",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "AzureFunctionsJobHost__extensionBundle__version": "[1.*, 2.0.0)",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "fd60a925-899f-4bf3-8011-64191d28986b",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=fd60a925-899f-4bf3-8011-64191d28986b;IngestionEndpoint=https://uksouth-1.in.applicationinsights.azure.com/",
+    "WEBSITE_NODE_DEFAULT_VERSION": "12.21.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=azuksmcpvaqstgd1;AccountKey=6FHixBFTB7GVHxRgqqAwZK7F1rGlfgIvVk7I9ES+N9xo1tdm8y1p7sbFqfswG611zbKx7G+/nbVpi0JBDsdaPg==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "azuks-mcp-vaq-log-d187e1",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "WEBSITE_SITE_NAME": "azuks-mcp-vaq-log-d1",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=azuksmcpvaqstgd1;AccountKey=6FHixBFTB7GVHxRgqqAwZK7F1rGlfgIvVk7I9ES+N9xo1tdm8y1p7sbFqfswG611zbKx7G+/nbVpi0JBDsdaPg==;EndpointSuffix=core.windows.net",
+    "APP_KIND": "workflowApp"
+  }
+}
