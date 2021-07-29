@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApi", "SimpleApi\SimpleApi.csproj", "{39755D88-3134-4296-B935-07348F808F88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApi", "SimpleApi\SimpleApi.csproj", "{39755D88-3134-4296-B935-07348F808F88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{38431D73-1657-48C0-BA6B-74E55FF73B91}"
 EndProject
@@ -15,15 +15,19 @@ Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "LogicAppClassic", "LogicApp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5000D2C2-8D8E-4F9D-A7C9-FB25F35EB074}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApi.Domain", "SimpleApi.Domain\SimpleApi.Domain.csproj", "{7BDC81C8-8B7D-4151-8878-8C0395CCE3BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApi.Domain", "SimpleApi.Domain\SimpleApi.Domain.csproj", "{7BDC81C8-8B7D-4151-8878-8C0395CCE3BB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{CE7978C8-1CC0-484F-83FF-8AF39FD2EF5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApi.Persistence", "SimpleApi.Persistence\SimpleApi.Persistence.csproj", "{F4B17522-F8A0-4A8E-9F8B-B84D15D60E8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApi.Persistence", "SimpleApi.Persistence\SimpleApi.Persistence.csproj", "{F4B17522-F8A0-4A8E-9F8B-B84D15D60E8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApi.Persistence.Interfaces", "SimpleApi.Persistence.Interfaces\SimpleApi.Persistence.Interfaces.csproj", "{C5F82D4E-64CA-456E-8501-357846148B9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApi.Persistence.Interfaces", "SimpleApi.Persistence.Interfaces\SimpleApi.Persistence.Interfaces.csproj", "{C5F82D4E-64CA-456E-8501-357846148B9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApi.App", "SimpleApi.App\SimpleApi.App.csproj", "{E672F7F9-C84F-47FB-90AD-8A8ADECD2F7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApi.App", "SimpleApi.App\SimpleApi.App.csproj", "{E672F7F9-C84F-47FB-90AD-8A8ADECD2F7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctions", "AzureFunctions", "{68621322-F424-4F44-8D07-99F4793D3356}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAzureFunction", "SimpleAzureFunction\SimpleAzureFunction.csproj", "{F599BEF7-0446-46F6-A97A-35B0D34D3521}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{E672F7F9-C84F-47FB-90AD-8A8ADECD2F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E672F7F9-C84F-47FB-90AD-8A8ADECD2F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E672F7F9-C84F-47FB-90AD-8A8ADECD2F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F599BEF7-0446-46F6-A97A-35B0D34D3521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F599BEF7-0446-46F6-A97A-35B0D34D3521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F599BEF7-0446-46F6-A97A-35B0D34D3521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F599BEF7-0446-46F6-A97A-35B0D34D3521}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +79,7 @@ Global
 		{F4B17522-F8A0-4A8E-9F8B-B84D15D60E8D} = {CE7978C8-1CC0-484F-83FF-8AF39FD2EF5D}
 		{C5F82D4E-64CA-456E-8501-357846148B9A} = {CE7978C8-1CC0-484F-83FF-8AF39FD2EF5D}
 		{E672F7F9-C84F-47FB-90AD-8A8ADECD2F7D} = {38431D73-1657-48C0-BA6B-74E55FF73B91}
+		{F599BEF7-0446-46F6-A97A-35B0D34D3521} = {68621322-F424-4F44-8D07-99F4793D3356}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DABF744-4660-4BCB-B594-51F50444AFFC}
