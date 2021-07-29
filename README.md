@@ -12,7 +12,7 @@ The solution is split in 4 different implementation:
 
 † Domain is a .NET Standard project to be used in the WebApi project and in the Azure Function
 
-![image](https://user-images.githubusercontent.com/9497415/127468919-6802c9d3-a6f9-4061-bf14-182b91a332c3.png)
+![Solution in Visual Studio](https://user-images.githubusercontent.com/9497415/127474718-4898c1ba-15ff-42d1-90e8-a324b5f7b83f.png)
 
 ## Architecture and security
 The nature of the project and the deploy environment impact on the architecture. In the projects you have different approaches. **Logic Apps** are build in **Azure** and the basic security is to use a key in the URL. However, it is possible to put in front of them an **Azure API Manager** that provides a security layer and integration with **Azure Active Directory** and **OpenId** (such as **IdentityServer4**).
@@ -35,13 +35,13 @@ The project is divided into the following layers:
 ## Screenshot
 
 ### Azure Function
-![image](https://user-images.githubusercontent.com/9497415/127470592-c529c9db-4c78-416f-8f6a-3e35875a8722.png)
+![Azure Function output](https://user-images.githubusercontent.com/9497415/127470592-c529c9db-4c78-416f-8f6a-3e35875a8722.png)
 
 ### Swagger for the WebApi
 ![image](https://user-images.githubusercontent.com/9497415/127469874-cd7a1090-d79d-45a5-8aec-c742f00fa385.png)
 
 ### Logic App Classic
-![image](https://user-images.githubusercontent.com/9497415/127470090-f2bceae5-e038-4724-8e32-4c514a074218.png)
+![LogicApp Classic Screenshot from Azure portal](https://user-images.githubusercontent.com/9497415/127470090-f2bceae5-e038-4724-8e32-4c514a074218.png)
 
 ### Logic App in Visual Studio
-![image](https://user-images.githubusercontent.com/9497415/127470322-d24fe22b-83a1-4425-bc39-b757b3a5d286.png)
+![LogicApp in VisualStudio 2019](https://user-images.githubusercontent.com/9497415/127470322-d24fe22b-83a1-4425-bc39-b757b3a5d286.png)
