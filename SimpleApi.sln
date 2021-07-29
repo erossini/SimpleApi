@@ -29,6 +29,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctions", "AzureFunc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAzureFunction", "SimpleAzureFunction\SimpleAzureFunction.csproj", "{F599BEF7-0446-46F6-A97A-35B0D34D3521}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{886D1574-193F-4574-BF94-481E5068D8FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApi.Tests", "SimpleApi.Tests\SimpleApi.Tests.csproj", "{9ADB8730-006F-46BC-A92A-F3BB106DE69F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,10 @@ Global
 		{F599BEF7-0446-46F6-A97A-35B0D34D3521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F599BEF7-0446-46F6-A97A-35B0D34D3521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F599BEF7-0446-46F6-A97A-35B0D34D3521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADB8730-006F-46BC-A92A-F3BB106DE69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADB8730-006F-46BC-A92A-F3BB106DE69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADB8730-006F-46BC-A92A-F3BB106DE69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADB8730-006F-46BC-A92A-F3BB106DE69F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +88,7 @@ Global
 		{C5F82D4E-64CA-456E-8501-357846148B9A} = {CE7978C8-1CC0-484F-83FF-8AF39FD2EF5D}
 		{E672F7F9-C84F-47FB-90AD-8A8ADECD2F7D} = {38431D73-1657-48C0-BA6B-74E55FF73B91}
 		{F599BEF7-0446-46F6-A97A-35B0D34D3521} = {68621322-F424-4F44-8D07-99F4793D3356}
+		{9ADB8730-006F-46BC-A92A-F3BB106DE69F} = {886D1574-193F-4574-BF94-481E5068D8FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DABF744-4660-4BCB-B594-51F50444AFFC}

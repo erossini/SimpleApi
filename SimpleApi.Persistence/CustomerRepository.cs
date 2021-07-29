@@ -15,12 +15,12 @@ namespace SimpleApi.Persistence
 			throw new NotImplementedException();
 		}
 
-		public Task DeleteAsync(long id)
+		public Task DeleteAsync(string id)
 		{
 			throw new NotImplementedException();
 		}
 
-		public Task<Customer> GetByIdAsync(long id)
+		public Task<Customer> GetByIdAsync(string id)
 		{
 			throw new NotImplementedException();
 		}

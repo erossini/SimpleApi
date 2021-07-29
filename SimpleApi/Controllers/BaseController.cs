@@ -47,9 +47,9 @@ namespace SimpleApi.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> GetValue(long id)
+        public async Task<IActionResult> GetValue(string id)
         {
-            _log.LogDebug("Request GetValue");
+            _log?.LogDebug("Request GetValue");
 
             var rtn = await _db.GetByIdAsync(id);
             return rtn != null ? Ok(rtn) : NotFound();
@@ -64,7 +64,7 @@ namespace SimpleApi.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public IActionResult GetValues()
         {
-            _log.LogDebug("Request GetValues");
+            _log?.LogDebug("Request GetValues");
 
             return Ok(_db.ListAllAsync());
         }
@@ -77,7 +77,7 @@ namespace SimpleApi.Controllers
         [HttpPatch]
         public async Task<IActionResult> Patch(T value)
         {
-            _log.LogDebug("Request Patch");
+            _log?.LogDebug("Request Patch");
 
             if (value == null)
                 return BadRequest();
@@ -96,7 +96,7 @@ namespace SimpleApi.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Post(T value)
         {
-            _log.LogDebug("Request Post");
+            _log?.LogDebug("Request Post");
 
             var userName = _httpContextAccessor.HttpContext.User.Identity.Name;
 
@@ -115,9 +115,9 @@ namespace SimpleApi.Controllers
         /// <returns>IActionResult.</returns>
         [HttpDelete]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<IActionResult> Delete(long id)
+        public async Task<IActionResult> Delete(string id)
         {
-            _log.LogDebug("Request Delete");
+            _log?.LogDebug("Request Delete");
 
             await _db.DeleteAsync(id);
             return Ok();
