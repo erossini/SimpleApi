@@ -3,13 +3,16 @@ Given a new green field project, the requirements are that are two different pay
 
 The solution is split in 3 different implementation:
 - Logic App Classic
+- Logic App (New version 2021)
 - Azure Function
 - WebApi
-  - Domain
+  - Domain †
   - Persistence
   - Api
 
-![image](https://user-images.githubusercontent.com/9497415/127405143-7300edad-a383-4931-b655-1447b1e09c90.png)
+† Domain is a .NET Standard project to be used in the WebApi project and in the Azure Function
+
+![image](https://user-images.githubusercontent.com/9497415/127468919-6802c9d3-a6f9-4061-bf14-182b91a332c3.png)
 
 ## Architecture for Logic Apps
 <img width="756" alt="LogicApps" src="https://user-images.githubusercontent.com/9497415/127405581-a9fe4a05-4944-4ced-9b11-617792488e30.png">
